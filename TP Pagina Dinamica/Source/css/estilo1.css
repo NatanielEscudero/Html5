@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url("/Source/img/login-Dl1yShgU.png");
+
+}
+
+form{
+
+    margin-top: 10px;
+	width: 35%;
+    height: 100vh;
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: 30%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	
+}
+
+.menu{
+    width: 30%;
+}
+
+.numero{
+
+	font-size: 7rem;
+
+}
+
+.botones{
+
+	display: flex;
+	margin-top: 10px;
+
+}
+
+button{
+
+	margin: 5px;
+	width: 140px;
+	height: 35px;
+	cursor: pointer;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+	background-color: red;
+
+
+}
+.formulario-superior{
+
+    background: linear-gradient(to right, #3daa35 0%,#26b4bd);
+    width: 100%;
+    height: 8%;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.formulario-inferior{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.boton-ingresar{
+
+    background-color: #525251;
+    color: white;
+    border: #3c3c3b;
+    width: 75%;
+    height: 42px;
+    padding: 5px;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 5px ;
+    margin-top: 15px;
+}
+
+.campo{
+
+    background-color: #f8f8f8;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-bottom: #3c3c3b 1px solid; 
+    width: 75%;
+    height: 42px;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.title{
+
+    color: #279d2e;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35px;
+    margin-top: 15px;
+
+}
+
+.texto-campo{
+    color: #3c3c3b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 35px;
+    margin-top: 15px;
+}
